@@ -7,8 +7,8 @@ def addToInventory(item):
 pickup = raw_input('>').strip().lower()
 
 if pickup == "yes":
-    addToInventory("flashlight")
+    addToInventory("")
 else:
-    print ("you can leave it")
+    print ("")
 print (inventory)
 
