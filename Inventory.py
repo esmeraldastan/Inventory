@@ -1,9 +1,14 @@
-class Inventory(object):
-    def __init__(self):
-        self.items = {}
-        
-    def add_items(self, item):
-        self.items[item.name] = item
-        
-    def print_items(self):
-        print "Name: \nAttack:"
+#INVENTORY FOR ITEMS/WEAPONS
+inventory = []
+
+def addToInventory(item):
+    inventory.append(item)   
+
+pickup = raw_input('>').strip().lower()
+
+if pickup == "yes":
+    addToInventory("flashlight")
+else:
+    print ("you can leave it")
+print (inventory)
+
