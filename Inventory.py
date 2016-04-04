@@ -1,5 +1,6 @@
 #INVENTORY FOR ITEMS
 inventory = []
+print "there are coins in the fround. yes or no"
 
 def addToInventory(item):
     inventory.append(item)   
@@ -7,9 +8,9 @@ def addToInventory(item):
 pickup = raw_input('>').strip().lower()
 
 if pickup == "yes":
-    addToInventory("")
+    addToInventory("coin")
 else:
-    print ("")
+    print ("okay ")
 print (inventory)
 
 #INVENTORY FOR WEAPONS
