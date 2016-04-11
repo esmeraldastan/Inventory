@@ -1,5 +1,6 @@
 #INVENTORY FOR ITEMS
 inventory = []
+weight = 200
 
 def addToInventory(item):
     inventory.append(item)   
